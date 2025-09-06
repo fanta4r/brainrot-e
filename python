@@ -1,0 +1,23 @@
+import random
+import time
+
+random.seed(time.time())
+random_int = random.randint(3, 3)
+my_list = ['gyatt','mid','unc','bombadillo crocodillo','w','OP','robux','glizzy','tung tung sahur','jake paul','ninja','sigma','diddy','mi bomba','massive','ksi', 'skibidi', 'ohio', 'rizz', 'aura', 'goofy ahh', 'edgy', 'six seven', 'bomboclat', 'alpha', 'simpy', 'griddy', 'cocomelon', 'sisyphus', 'bussy', 'sussy', 'cap', 'wild', 'cray cray', 'crazy work', 'low taper fade', 'chimpazini bananini','hawk tuah']
+their_list = ['nothing beats a jet 2 holiday like ur','from the screen to the ring to the pen to the','i couldnt imagine being','W in the chat for','chat clip that','u think the huzz want that','dont drag the','i wouldnt taper with that','i like my cheese drippy like some','thats so', 'honestly so', 'really so', 'its so', 'WHY IS THAT SO', 'stop being so']
+that_list = ['btw take a shower lil bro','btw touch some grass','almost as cringe as grow a garden','although the chances of that are low','plus some lunchly is mmm','i swear on wyoming','also like logan paul','dynamic', 'farmer', 'skill', 'lols', 'lmao', 'ahh', 'bruh', 'sigma', 'and rizzy', 'and rizzy with a glizzy', 'and rizzy with a glizzy on a bananini']
+this_listo = ['btw you suffer from gyattism',',hey, stop gooning!','btw ur chopped fr','btw you lose to fortnite bots','btw get a life','u doom scroller','ik it hits deep right','monopoly man','btw ur afraid of women','you Prime investor',', u non challant goofy ahh','u mew and mogger','u wish','btw u use chatgpt for pickup lines']
+random_item = random.choice(my_list)
+honestly = random.choice(their_list)
+additionalahh = random.choice(that_list)
+skibido = random.choice(this_listo)
+if random_int == 1:
+  print(f"{honestly} {random_item}")
+if random_int == 2:
+  print(f"{honestly} {random_item} {additionalahh}")
+if random_int == 3:
+  print(f"INSULT GENERATED: {honestly} {random_item} {additionalahh} {skibido}")
+if random_int == 4:
+  print(f"bro needs some more {random_item}")
+if random_int == 5:
+  print(f"{random_item} LOLLLL")
